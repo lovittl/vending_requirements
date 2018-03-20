@@ -1,48 +1,46 @@
 # Vending machine
-  ## Security
-    - Ensures money is real
+## Security
+- Ensures money is real
+- Secures internal inventory
+- Validates credit/debit cards
 
-    - Secures internal inventory
+## Maintenance
+- Runs a refrigerant system
 
-    - Validates credit/debit cards
+- Senses issues with the vending system
 
-  ## Maintenance
-    - Runs a refrigerant system
+- Provides a method of restocking
 
-    - Senses issues with the vending system
+## Money
+- Return change
 
-    - Provides a method of restocking
+- Senses if the money compartment is full
 
-  ## Money
-    - Return change
+- Senses if the change drawer is empty
 
-    - Senses if the money compartment is full
+## Interface
+- Receives money
 
-    - Senses if the change drawer is empty
+- Displays products & prices
 
-  ## Interface
-    - Receives money
+- Provides product selector
 
-    - Displays products & prices
+- Scans credit/debit cards
 
-    - Provides product selector
+- Notify when a product is not available
 
-    - Scans credit/debit cards
-
-    - Notify when a product is not available
-
-    - Notify when insufficient currency has been provided
+- Notify when insufficient currency has been provided
    
 
-  ## Vending
-    ### Maintains an inventory
-      - VI1 - The system shall provide shelving appropriate for canned beverages.
-      - VI2 - The system shall provide space for up to 12 categories of beverage.
-      - VI3 - The system shall uniquely identify drink categories.
-      - VI4 - The system shall maintain a count of beverages in each drink category.
+## Vending
+### Maintains an inventory
+- VI1 - The system shall provide shelving appropriate for canned beverages.
+- VI2 - The system shall provide space for up to 12 categories of beverage.
+- VI3 - The system shall uniquely identify drink categories.
+- VI4 - The system shall maintain a count of beverages in each drink category.
 
-    ### Vend products selected
-      - VV1 - Upon receiving a drink selection (ref. TODO), when the specified quantity of currency for the selected category has been inserted (ref. TODO), and while drinks are in inventory to vend (ref. VI4) the system shall dispense at most one of the selected category of drink.
+### Vend products selected
+- VV1 - Upon receiving a drink selection (ref. TODO), when the specified quantity of currency for the selected category has been inserted (ref. TODO), and while drinks are in inventory to vend (ref. VI4) the system shall dispense at most one of the selected category of drink.
 
-      - VV2 - Upon vending a drink (ref. VV1), the system shall reduce the inventory count (ref. VI4) for the drink category by one prior to accepting further user input.
- 
+- VV2 - Upon vending a drink (ref. VV1), the system shall reduce the inventory count (ref. VI4) for the drink category by one prior to accepting further user input.
+
