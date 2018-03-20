@@ -18,7 +18,7 @@
 
 - Senses if the change drawer is empty
 
-## Interface
+## Interface (GREG) testing...
 - Receives money
 
 - Displays products & prices
