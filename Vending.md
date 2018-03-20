@@ -1,9 +1,8 @@
 # Vending machine
 ## Security
-- Ensures money is real
-- Secures internal inventory
-- Validates credit/debit cards
-
+- VS1 - The system shall identify whether or not money is American and valid, or counterfeit(ref. TODO).
+- VS2 - The system shall be accessible only by the owner, through a key, otherwise the internal inventory remains secured and inaccessible to others.
+- VS3 - The system shall determine whether or not credit/debit cards have sufficient funds to cover the transaction(ref. TODO).
 ## Maintenance
 - Runs a refrigerant system
 
