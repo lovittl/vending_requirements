@@ -5,9 +5,8 @@
 - Validates credit/debit cards
 
 ## Maintenance
-- VMA1.  The system shall provide a refrigerant system that maintains a consistant temperature sufficient 
-         to keep drinks in inventory (Ref. TODO) at a desireable temperature for consumption.
-
+- VMA1.  VMA1.  The system shall provide a refrigerant system that maintains a consistant temperature of drinks in 
+         inventory (Ref. TODO) at a temperature range between 38 and 45 degrees fahrenheiht.
 
 - VMA2.  The system shall detect conditions that prevent the vending system from dispensing drinks as requested 
          by the customer from the interface (Ref TODO).
